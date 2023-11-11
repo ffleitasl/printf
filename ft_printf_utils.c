@@ -6,7 +6,7 @@
 /*   By: ffleitas <ffleitas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/05 21:08:57 by ffleitas          #+#    #+#             */
-/*   Updated: 2023/11/11 17:27:29 by ffleitas         ###   ########.fr       */
+/*   Updated: 2023/11/11 19:38:11 by ffleitas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,13 +84,12 @@ int	ft_putsignednbr(int n) //%i && %d
 
 int	ft_putunsignednbr(unsigned int n) //%u
 {
-	int len;
-	
-	len = ft_countnbr(n);
+	static int len;
+
 	if (n > 9)
 	{
 		ft_putunsignednbr (n / 10);
 	}
-	ft_putchar ((n % 10) + '0');
+	len += ft_putchar ((n % 10) + '0');
 	return(len);
 }

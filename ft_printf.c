@@ -6,7 +6,7 @@
 /*   By: ffleitas <ffleitas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/05 21:08:59 by ffleitas          #+#    #+#             */
-/*   Updated: 2023/11/11 18:10:02 by ffleitas         ###   ########.fr       */
+/*   Updated: 2023/11/11 19:38:04 by ffleitas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,9 +90,9 @@ int ft_printf(char const *format, ...)
 	va_end(args);
 	return(lenft + lenformat);
 }
-/* int main()
+int main()
 {
-	char *x = "";
+/* 	char *x = "";
 	
 	printf("TEST:\n");
 	printf("Mi printf:\n");
@@ -102,13 +102,17 @@ int ft_printf(char const *format, ...)
 	int count2 = printf("Test -> c:%c s:%s d:%d i:%i u:%u x:%x X:%X %%:%% p:%p\n", 'a',"Hello",40,-55,42,15242,15242,&x);
 	printf("--------------------------------------------------------------------\n");
 	printf("Cantidad de caracteres impresos mi printf:%d\n",count);
-	printf("Cantidad de caracteres impresos printf:%d\n",count2);
-
-	// int count = printf("%p","");
-	// printf("\n%d",count);
-	// int count2 = ft_printf("%p","");
-	// ft_printf("\n%d",count2);
-} */
+	printf("Cantidad de caracteres impresos printf:%d\n",count2); */
+	
+ 
+	// char *p = "Hello World";
+	// printf("%d\n",(ft_printf("")));
+	// printf("%d\n",(printf("")));
+/* 	int count = printf("%p","");
+	printf("\n%d",count);
+	int count2 = ft_printf("%p","");
+	ft_printf("\n%d",count2); */
+}
 
 // c = 1
 // s = 5
