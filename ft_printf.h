@@ -5,29 +5,24 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ffleitas <ffleitas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/05 21:09:01 by ffleitas          #+#    #+#             */
-/*   Updated: 2023/11/11 17:30:14 by ffleitas         ###   ########.fr       */
+/*   Created: 2023/11/11 19:00:06 by ffleitas          #+#    #+#             */
+/*   Updated: 2023/11/12 17:45:41 by ffleitas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-#include <unistd.h>
-#include <stdarg.h>
-#include <stdio.h>
-#include <limits.h>
+# include <stdio.h>
+# include <stdarg.h>
+# include <unistd.h>
 
-int ft_printf(char const *format, ...);
-
-int ft_strlen(char *str);
-int ft_putchar(char c);
-int ft_putstr(char *str);
-int	ft_putsignednbr(int n);
-int	ft_putunsignednbr(unsigned int n);
-
-int	ft_hexlower(unsigned long long n);
-int	ft_hexupper(unsigned long long n);
-int ft_countnbr(int n);
+int		ft_printf(char const*format, ...);
+void	ft_puthexupper(unsigned long long nbr, int *count);
+void	ft_puthexlower(unsigned long long nbr, int *count);
+void	ft_putunsignednbr(unsigned int nbr, int *count);
+void	ft_putnbr(int nbr, int *count);
+void	ft_putstr(char *str, int *count);
+void	ft_putchar(char c, int *count);
 
 #endif
