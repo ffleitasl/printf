@@ -2,6 +2,14 @@
 
 ![Screenshoot](https://github.com/freddyfleitas/ftprintf_42/blob/master/ft_printf.png)
 
+## Table of Contents
+
+- [What Is This?](#what-is-this)
+  - [Resources](#resources)
+- [Key Considerations](#key-considerations)
+- [My Experience](#my-experience)
+- [Extra](#extra)
+
 ## ¿WHAT IS THIS?
 
 That was my initial reaction upon encountering the prototype of the function for the first time.
