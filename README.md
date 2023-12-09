@@ -49,7 +49,8 @@ The above is sufficient to start implementing the code and encompasses what I wi
 ## Extra
 
 Using %p may seem complicated, but by choosing the correct data type, you can achieve it easily.
-**HINT**Unsigned long long is the answer.
+
+**HINT** Unsigned long long is the answer.
 
  
 
