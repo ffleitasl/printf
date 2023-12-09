@@ -5,7 +5,6 @@
 ## Table of Contents
 
 - [What Is This?](#what-is-this)
-  - [Resources](#resources)
 - [Key Considerations](#key-considerations)
 - [My Experience](#my-experience)
 - [Extra](#extra)
