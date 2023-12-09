@@ -1,5 +1,6 @@
-# ftprintf_42
-🖨️ Ft_Printf: Recreate the behavior of the printf function.
+# Ft_Printf - @42Born2Code
+
+![Screenshoot](https://github.com/freddyfleitas/ftprintf_42/blob/master/ft_printf.png)
 
 ## ¿WHAT IS THIS?
 
