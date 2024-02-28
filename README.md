@@ -42,7 +42,7 @@ My first day with ft_printf was rewarding. I went home with a function that prin
 
 Adding an int pointer count to ft_putchar allows us to increment the pointer's value every time we print something. We'll use ft_putchar in each function to display the desired element on the screen.
 
-```
+```c
 void ft_putchar(char c, int *count) {
     if (write(1, &c, 1) == -1) {
         *count = -1;
